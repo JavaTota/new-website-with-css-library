@@ -8,9 +8,9 @@
   /* Columns */
   --global-column-count: 12;
   /* Colors */
-  --color-primary: #09b851;
-  --color-secondary: #f8f8f8;
-  --color-title: #202124;
-  --color-title-opacity: #292a2d;
-  --color-text: #363d47;
+  --color-primary: hsl(145, 91%, 38%);
+  --color-secondary: hsl(0, 0%, 97%);
+  --color-title: hsl(225, 6%, 13%);
+  --color-title-opacity: hsl(225, 5%, 17%);
+  --color-text: hsl(215, 14%, 25%);
 }

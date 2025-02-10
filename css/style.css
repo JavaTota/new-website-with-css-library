@@ -105,23 +105,64 @@ nav {
   border-right: 0.5px solid var(--color-text);
 }
 
-/* Quick links
-About us
-Contact us
-Career 2 Job
-Career detail
-Become a partner
-Sign in
-Sign up
-Community
-Documents
-Supports 
-Faqs
-Privacy Policy
-News and blogs
-Terms & condition
-App available on
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-title-opacity);
+  width: calc(100% / 5);
+  height: 40px;
+  border-radius: 10px;
+}
 
-app-store
-Follow on
-     */
+/*Dropup language menu*/
+
+/* Dropup Button */
+.dropbtn {
+  background-color: var(--color-title-opacity);
+  color: var(--color-secondary);
+  padding: 16px;
+  border-radius: 10px;
+  height: 35px;
+  border: none;
+  width: fit-content;
+  font-size: small;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: var(--color-text);
+  width: 100%;
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+  color: var(--color-secondary);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {
+  background-color: hsla(145, 91%, 38%, 0.2);
+}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+  background-color: var(--color-secondary);
+}

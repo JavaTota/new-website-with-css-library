@@ -348,40 +348,6 @@ h6 {
 .mt-8 {
   margin-top: calc(var(--global-base-margin) * 8);
 }
-
-.my-1 {
-  margin-top: calc(var(--global-base-margin) * 1);
-  margin-bottom: calc(var(--global-base-margin) * 1);
-}
-.my-2 {
-  margin-top: calc(var(--global-base-margin) * 2);
-  margin-bottom: calc(var(--global-base-margin) * 2);
-}
-.my-3 {
-  margin-top: calc(var(--global-base-margin) * 3);
-  margin-bottom: calc(var(--global-base-margin) * 3);
-}
-.my-4 {
-  margin-top: calc(var(--global-base-margin) * 4);
-  margin-bottom: calc(var(--global-base-margin) * 4);
-}
-.my-5 {
-  margin-top: calc(var(--global-base-margin) * 5);
-  margin-bottom: calc(var(--global-base-margin) * 5);
-}
-.my-6 {
-  margin-top: calc(var(--global-base-margin) * 6);
-  margin-bottom: calc(var(--global-base-margin) * 6);
-}
-.my-7 {
-  margin-top: calc(var(--global-base-margin) * 7);
-  margin-bottom: calc(var(--global-base-margin) * 7);
-}
-.my-8 {
-  margin-top: calc(var(--global-base-margin) * 8);
-  margin-bottom: calc(var(--global-base-margin) * 8);
-}
-
 .mr-1 {
   margin-right: calc(var(--global-base-margin) * 1);
 }
@@ -429,6 +395,72 @@ h6 {
 }
 .mb-8 {
   margin-bottom: calc(var(--global-base-margin) * 8);
+}
+
+.my-1 {
+  margin-top: calc(var(--global-base-margin) * 1);
+  margin-bottom: calc(var(--global-base-margin) * 1);
+}
+.my-2 {
+  margin-top: calc(var(--global-base-margin) * 2);
+  margin-bottom: calc(var(--global-base-margin) * 2);
+}
+.my-3 {
+  margin-top: calc(var(--global-base-margin) * 3);
+  margin-bottom: calc(var(--global-base-margin) * 3);
+}
+.my-4 {
+  margin-top: calc(var(--global-base-margin) * 4);
+  margin-bottom: calc(var(--global-base-margin) * 4);
+}
+.my-5 {
+  margin-top: calc(var(--global-base-margin) * 5);
+  margin-bottom: calc(var(--global-base-margin) * 5);
+}
+.my-6 {
+  margin-top: calc(var(--global-base-margin) * 6);
+  margin-bottom: calc(var(--global-base-margin) * 6);
+}
+.my-7 {
+  margin-top: calc(var(--global-base-margin) * 7);
+  margin-bottom: calc(var(--global-base-margin) * 7);
+}
+.my-8 {
+  margin-top: calc(var(--global-base-margin) * 8);
+  margin-bottom: calc(var(--global-base-margin) * 8);
+}
+
+.mx-1 {
+  margin-right: calc(var(--global-base-margin) * 1);
+  margin-left: calc(var(--global-base-margin) * 1);
+}
+.mx-2 {
+  margin-right: calc(var(--global-base-margin) * 2);
+  margin-left: calc(var(--global-base-margin) * 2);
+}
+.mx-3 {
+  margin-right: calc(var(--global-base-margin) * 3);
+  margin-left: calc(var(--global-base-margin) * 3);
+}
+.mx-4 {
+  margin-right: calc(var(--global-base-margin) * 4);
+  margin-left: calc(var(--global-base-margin) * 4);
+}
+.mx-5 {
+  margin-right: calc(var(--global-base-margin) * 5);
+  margin-left: calc(var(--global-base-margin) * 5);
+}
+.mx-6 {
+  margin-right: calc(var(--global-base-margin) * 6);
+  margin-left: calc(var(--global-base-margin) * 6);
+}
+.mx-7 {
+  margin-right: calc(var(--global-base-margin) * 7);
+  margin-left: calc(var(--global-base-margin) * 7);
+}
+.mx-8 {
+  margin-right: calc(var(--global-base-margin) * 8);
+  margin-left: calc(var(--global-base-margin) * 8);
 }
 
 .margin-auto-x {
